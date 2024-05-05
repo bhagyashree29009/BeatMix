@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    flex: 1;
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #333;
+}
+
+.profile .details {
+    margin: 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+.bio {
+    flex: 1;
+}
+
+.bio p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    text-align:center;
+    font-weight: bold;
+}
+
+
+nav{
+    font-family: 'Roboto' , sans-serif;
+}
+
+nav ul{
+   display: flex;
+   align-items:center;
+   list-style-type: none;
+   height: 50px;
+   background-color: black;
+   color: white;
+}
+
+
+.brand img{
+   width: 70px;
+}
+nav ul li{
+   padding: 0 12px;
+}
+
+.brand{
+   display: flex;
+   align-items: center;
+   font-weight: bolder;
+   font-size: 1.3rem;
+}
+
+.plain-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.plain-link:hover {
+    background-color: white;
+    color: black; /* Change text color when hovered */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    padding: 5px 10px; /* Optional: Add padding inside the box */
+}
